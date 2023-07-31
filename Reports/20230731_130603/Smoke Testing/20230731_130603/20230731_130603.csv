@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke Testing,Chrome 114.0.0.0,,,2023-07-31 13:06:13,2023-07-31 13:08:15,2m - 1.949s,PASSED
+,,,,,,,
+Test Cases/Login Test,Chrome 114.0.0.0,,,2023-07-31 13:06:14,2023-07-31 13:06:38,23.550s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-31 13:06:15,2023-07-31 13:06:23,8.245s,PASSED
+"navigateToUrl(""https://example.testproject.io/web/"")",Chrome 114.0.0.0,,,2023-07-31 13:06:23,2023-07-31 13:06:32,8.784s,PASSED
+"setText(findTestObject(""Object Repository/Login Page/Page_TestProject Demo/input_Full Name_name""), ""hkit"")",Chrome 114.0.0.0,,,2023-07-31 13:06:32,2023-07-31 13:06:34,1.497s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Page_TestProject Demo/input_Password_password""), ""iGDxf8hSRT4="")",Chrome 114.0.0.0,,,2023-07-31 13:06:34,2023-07-31 13:06:35,0.765s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Page_TestProject Demo/button_Login""))",Chrome 114.0.0.0,,,2023-07-31 13:06:35,2023-07-31 13:06:35,0.658s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login Page/Page_TestProject Demo/p_Hello hkit, lets complete the test form""), ""Hello hkit, let's complete the test form:"")",Chrome 114.0.0.0,,,2023-07-31 13:06:35,2023-07-31 13:06:36,0.580s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-31 13:06:36,2023-07-31 13:06:38,1.778s,PASSED
+,,,,,,,
+Test Cases/Registration Test,Chrome 114.0.0.0,,,2023-07-31 13:06:38,2023-07-31 13:07:14,36.839s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-31 13:06:39,2023-07-31 13:06:55,16.679s,PASSED
+"navigateToUrl(""https://example.testproject.io/web/"")",Chrome 114.0.0.0,,,2023-07-31 13:06:55,2023-07-31 13:06:58,3.071s,PASSED
+"setText(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/input_Full Name_name""), ""hkit"")",Chrome 114.0.0.0,,,2023-07-31 13:06:58,2023-07-31 13:06:59,1.051s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/input_Password_password""), ""iGDxf8hSRT4="")",Chrome 114.0.0.0,,,2023-07-31 13:06:59,2023-07-31 13:07:00,0.645s,PASSED
+"click(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/button_Login""))",Chrome 114.0.0.0,,,2023-07-31 13:07:00,2023-07-31 13:07:01,0.551s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/select_AfghanistanAlbaniaAlgeriaAmerican Sa_e5890c""), ""CN"", true)",Chrome 114.0.0.0,,,2023-07-31 13:07:01,2023-07-31 13:07:07,6.169s,PASSED
+"setText(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/input_Address_address""), ""guangzhou 301"")",Chrome 114.0.0.0,,,2023-07-31 13:07:07,2023-07-31 13:07:08,1.039s,PASSED
+"setText(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/input_Email_email""), ""wanhua@hengkangit.com"")",Chrome 114.0.0.0,,,2023-07-31 13:07:08,2023-07-31 13:07:09,1.060s,PASSED
+"setText(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/input_Phone_phone""), ""15875339201"")",Chrome 114.0.0.0,,,2023-07-31 13:07:09,2023-07-31 13:07:10,0.919s,PASSED
+"click(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/button_Save""))",Chrome 114.0.0.0,,,2023-07-31 13:07:10,2023-07-31 13:07:10,0.644s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/span_Saved""), ""Saved"")",Chrome 114.0.0.0,,,2023-07-31 13:07:10,2023-07-31 13:07:11,0.519s,PASSED
+"click(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/button_Logout""))",Chrome 114.0.0.0,,,2023-07-31 13:07:11,2023-07-31 13:07:13,2.190s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-31 13:07:13,2023-07-31 13:07:14,1.271s,PASSED
+,,,,,,,
+Test Cases/Logout Test,Chrome 114.0.0.0,,,2023-07-31 13:07:14,2023-07-31 13:07:33,18.194s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-31 13:07:15,2023-07-31 13:07:25,9.917s,PASSED
+"navigateToUrl(""https://example.testproject.io/web/"")",Chrome 114.0.0.0,,,2023-07-31 13:07:25,2023-07-31 13:07:27,1.704s,PASSED
+"setText(findTestObject(""Object Repository/Logout Page/Page_TestProject Demo/input_Full Name_name""), ""hkit"")",Chrome 114.0.0.0,,,2023-07-31 13:07:27,2023-07-31 13:07:28,0.993s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Logout Page/Page_TestProject Demo/input_Password_password""), ""iGDxf8hSRT4="")",Chrome 114.0.0.0,,,2023-07-31 13:07:28,2023-07-31 13:07:29,0.637s,PASSED
+"click(findTestObject(""Object Repository/Logout Page/Page_TestProject Demo/button_Login""))",Chrome 114.0.0.0,,,2023-07-31 13:07:29,2023-07-31 13:07:29,0.605s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Logout Page/Page_TestProject Demo/button_Logout""), 0)",Chrome 114.0.0.0,,,2023-07-31 13:07:29,2023-07-31 13:07:30,0.578s,PASSED
+"click(findTestObject(""Object Repository/Logout Page/Page_TestProject Demo/button_Logout""))",Chrome 114.0.0.0,,,2023-07-31 13:07:30,2023-07-31 13:07:32,1.643s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-31 13:07:32,2023-07-31 13:07:33,1.081s,PASSED
+,,,,,,,
+Test Cases/Login-1 Test,Chrome 114.0.0.0,,,2023-07-31 13:07:33,2023-07-31 13:07:48,15.123s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-31 13:07:34,2023-07-31 13:07:41,7.616s,PASSED
+"navigateToUrl(""https://example.testproject.io/web/"")",Chrome 114.0.0.0,,,2023-07-31 13:07:41,2023-07-31 13:07:44,2.600s,PASSED
+"setText(findTestObject(""Object Repository/Login-1 Page/Page_TestProject Demo/input_Full Name_name""), ""hkit"")",Chrome 114.0.0.0,,,2023-07-31 13:07:44,2023-07-31 13:07:45,0.992s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login-1 Page/Page_TestProject Demo/input_Password_password""), ""iGDxf8hSRT4="")",Chrome 114.0.0.0,,,2023-07-31 13:07:45,2023-07-31 13:07:46,0.643s,PASSED
+"click(findTestObject(""Object Repository/Login-1 Page/Page_TestProject Demo/button_Login""))",Chrome 114.0.0.0,,,2023-07-31 13:07:46,2023-07-31 13:07:46,0.595s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login-1 Page/Page_TestProject Demo/p_Hello hkit, lets complete the test form""), ""Hello hkit, let's complete the test form:"")",Chrome 114.0.0.0,,,2023-07-31 13:07:46,2023-07-31 13:07:47,0.506s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-31 13:07:47,2023-07-31 13:07:48,1.088s,PASSED
+,,,,,,,
+Test Cases/resgiter-1,Chrome 114.0.0.0,,,2023-07-31 13:07:48,2023-07-31 13:08:15,27.398s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-31 13:07:49,2023-07-31 13:07:59,9.763s,PASSED
+"navigateToUrl(""https://example.testproject.io/web/"")",Chrome 114.0.0.0,,,2023-07-31 13:07:59,2023-07-31 13:08:01,1.972s,PASSED
+"setText(findTestObject(""Object Repository/resgiter-1/Page_TestProject Demo/input_Full Name_name""), ""hkit"")",Chrome 114.0.0.0,,,2023-07-31 13:08:01,2023-07-31 13:08:02,0.962s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/resgiter-1/Page_TestProject Demo/input_Password_password""), ""iGDxf8hSRT4="")",Chrome 114.0.0.0,,,2023-07-31 13:08:02,2023-07-31 13:08:02,0.613s,PASSED
+"click(findTestObject(""Object Repository/resgiter-1/Page_TestProject Demo/button_Login""))",Chrome 114.0.0.0,,,2023-07-31 13:08:02,2023-07-31 13:08:03,0.575s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/resgiter-1/Page_TestProject Demo/select_AfghanistanAlbaniaAlgeriaAmerican Sa_e5890c""), ""CN"", true)",Chrome 114.0.0.0,,,2023-07-31 13:08:03,2023-07-31 13:08:09,5.921s,PASSED
+"setText(findTestObject(""Object Repository/resgiter-1/Page_TestProject Demo/input_Address_address""), ""chendgu"")",Chrome 114.0.0.0,,,2023-07-31 13:08:09,2023-07-31 13:08:10,0.917s,PASSED
+"setText(findTestObject(""Object Repository/resgiter-1/Page_TestProject Demo/input_Email_email""), ""zhong.y@hengkangit.com"")",Chrome 114.0.0.0,,,2023-07-31 13:08:10,2023-07-31 13:08:11,0.991s,PASSED
+"setText(findTestObject(""Object Repository/resgiter-1/Page_TestProject Demo/input_Phone_phone""), ""123456"")",Chrome 114.0.0.0,,,2023-07-31 13:08:11,2023-07-31 13:08:11,0.953s,PASSED
+"click(findTestObject(""Object Repository/resgiter-1/Page_TestProject Demo/button_Save""))",Chrome 114.0.0.0,,,2023-07-31 13:08:11,2023-07-31 13:08:12,0.502s,PASSED
+"verifyElementText(findTestObject(""Object Repository/resgiter-1/Page_TestProject Demo/p_Hello hkit, lets complete the test form""), ""Hello hkit, let's complete the test form:"")",Chrome 114.0.0.0,,,2023-07-31 13:08:12,2023-07-31 13:08:12,0.505s,PASSED
+"click(findTestObject(""Object Repository/resgiter-1/Page_TestProject Demo/button_Logout""))",Chrome 114.0.0.0,,,2023-07-31 13:08:12,2023-07-31 13:08:14,1.526s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-31 13:08:14,2023-07-31 13:08:15,1.143s,PASSED
