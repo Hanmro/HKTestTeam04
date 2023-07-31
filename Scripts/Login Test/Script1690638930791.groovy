@@ -32,6 +32,5 @@ WebUI.verifyElementText(findTestObject('Object Repository/Login Page/Page_TestPr
 
 WebUI.closeBrowser()
 
-WebUI.comment('Angel added this comment')
-
+WebUI.comment('Angel test add comment')
 
