@@ -32,5 +32,6 @@ WebUI.verifyElementText(findTestObject('Object Repository/Login Page/Page_TestPr
 
 WebUI.closeBrowser()
 
-WebUI.comment('Angel added this comment  wanhua update commit')
+WebUI.comment('彭伟添加comment.')
+
 
