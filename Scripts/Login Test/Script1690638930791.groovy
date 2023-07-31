@@ -32,5 +32,5 @@ WebUI.verifyElementText(findTestObject('Object Repository/Login Page/Page_TestPr
 
 WebUI.closeBrowser()
 
-WebUI.comment('彭伟添加comment')
+WebUI.comment('彭伟添加comment.')
 
